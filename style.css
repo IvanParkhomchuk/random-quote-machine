@@ -1,3 +1,7 @@
+body, .button, .quote, .author {
+    transition: 1s;
+}
+
 .wrapper {
     background-color: white;
     width: 30%;
@@ -24,4 +28,12 @@
     border: none;
     padding: 10px 15px;
     cursor: pointer;
+}
+
+.visible-text {
+    opacity: 1;
+}
+
+.invisible-text {
+    opacity: 0;
 }
